@@ -1,3 +1,4 @@
+=begin 
 def square_array(array)
    counter = 0 
    new = []
@@ -7,3 +8,8 @@ def square_array(array)
    end 
    new
 end
+=end 
+
+def square_array(array)
+  array.map{|x| x**2}
+end 
